@@ -71,11 +71,12 @@
   .lead{font-size:16.5px;max-width:68ch}
   .quote{border-left:4px solid var(--oro);background:var(--crema-2);padding:14px 20px;font-style:italic;color:var(--muted);margin:24px 0;max-width:60ch;font-family:'Fraunces',serif;font-size:16px}
 
-  /* ── Símbolos del rombo ── */
-  .simbolos{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px;margin-top:30px}
-  .simb{background:#fff;border:1px solid #E4DCC8;border-radius:var(--radius);padding:20px;font-size:13.5px;color:var(--muted)}
-  .simb b{display:block;color:var(--petroleo);font-family:'Fraunces',serif;font-size:16.5px;margin:10px 0 4px;font-weight:600}
-  .simb .ic{height:46px;display:flex;align-items:center}
+  /* ── Símbolos del rombo (iconografía diaguita) ── */
+  .simbolos{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px;margin-top:30px}
+  .simb{background:#fff;border:1px solid #E4DCC8;border-radius:var(--radius);padding:26px 20px 22px;font-size:13.5px;color:var(--muted);text-align:center}
+  .simb b{display:block;color:var(--petroleo);font-family:'Fraunces',serif;font-size:18px;margin:12px 0 6px;font-weight:600}
+  .simb .ic{height:108px;display:flex;align-items:center;justify-content:center}
+  .simb .greca{display:block;margin:14px auto 0;width:96px;height:12px}
 
   /* ── Empresas ── */
   .empresas{background:var(--petroleo)}
@@ -140,10 +141,26 @@
   <p class="lead">El Grupo Chavilca nace de la cultura <b>Diaguita y kakán</b> de Atacama. Su rombo reúne los símbolos de las empresas del grupo: el zigzag del agua que fluye, el cuero curtido del oficio y el kero que reúne a la gente — bajo el rombo diaguita que los ordena a todos.</p>
   <div class="quote">Empresas que cuidan los espacios de otros, con la misma constancia con que el agua sigue su curso.</div>
   <div class="simbolos">
-    <div class="simb"><div class="ic"><svg width="40" viewBox="30 30 180 180" aria-hidden="true"><polygon points="120,40 200,120 120,200 40,120" fill="#0F4C5C"/><polygon points="120,75 135,90 120,105 105,90" fill="none" stroke="#F7F3EC" stroke-width="3.2"/><polygon points="120,84 126,90 120,96 114,90" fill="#F7F3EC"/></svg></div><b>El rombo diaguita</b>El grupo: orden, identidad y pertenencia al territorio.</div>
-    <div class="simb"><div class="ic"><svg width="32" viewBox="70 120 24 36" aria-hidden="true"><polyline points="86,128 78,138 84,138 76,148" fill="none" stroke="#159AAB" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg></div><b>El agua que fluye</b>AMARU: la serpiente sagrada del agua, que sigue el hilo de cada servicio de principio a fin.</div>
-    <div class="simb"><div class="ic"><svg width="27" viewBox="0 0 240 240" aria-hidden="true"><ellipse cx="120" cy="124" rx="44" ry="80" fill="#B9572A"/><line x1="120" y1="74" x2="94" y2="134" stroke="#F7F3EC" stroke-width="9" stroke-linecap="round"/><line x1="120" y1="74" x2="146" y2="134" stroke="#F7F3EC" stroke-width="9" stroke-linecap="round"/><line x1="96" y1="134" x2="144" y2="134" stroke="#F7F3EC" stroke-width="9" stroke-linecap="round"/><polygon points="120,62 131,74 120,86 109,74" fill="#F7F3EC"/></svg></div><b>El cuero del oficio</b>TAMANGO: el material noble que abastece el trabajo diario.</div>
-    <div class="simb"><div class="ic"><svg width="25" viewBox="60 10 120 210" aria-hidden="true"><polygon points="72,52 168,52 160,68 80,68" fill="#95A0AA"/><polygon points="80,68 160,68 150,198 90,198" fill="#95A0AA"/><polygon points="86,198 154,198 162,214 78,214" fill="#95A0AA"/><polygon points="120,112 140,134 120,156 100,134" fill="#0F4C5C"/><polygon points="120,120 130,134 120,148 110,134" fill="#159AAB"/><path d="M120,40 C114,32 126,28 120,20" fill="none" stroke="#95A0AA" stroke-width="4" stroke-linecap="round"/></svg></div><b>El kero que reúne</b>COLQUE: el vaso ceremonial — la mesa y el café que juntan a la gente.</div>
+    <div class="simb">
+      <div class="ic"><svg width="104" viewBox="30 30 180 180" aria-hidden="true"><polygon points="120,40 200,120 40,120" fill="#0F4C5C"/><polygon points="40,120 93.3,120 120,200" fill="#159AAB"/><polygon points="93.3,120 146.7,120 120,200" fill="#B9572A"/><polygon points="146.7,120 200,120 120,200" fill="#95A0AA"/><polygon points="120,75 135,90 120,105 105,90" fill="none" stroke="#F7F3EC" stroke-width="3.2"/><polygon points="120,84 126,90 120,96 114,90" fill="#F7F3EC"/><polyline points="86,128 78,138 84,138 76,148" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/><ellipse cx="120" cy="139" rx="7" ry="12" fill="#fff"/><line x1="120" y1="129" x2="115" y2="149" stroke="#B9572A" stroke-width="2.2" stroke-linecap="round"/><line x1="120" y1="129" x2="125" y2="149" stroke="#B9572A" stroke-width="2.2" stroke-linecap="round"/><polygon points="151,135 165,135 163,148 153,148" fill="#fff"/><path d="M155,133 C153,130 157,128 155,126" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/><path d="M161,133 C163,130 159,128 161,126" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/><polygon points="120,40 200,120 120,200 40,120" fill="none" stroke="#D9CFB8" stroke-width="3.5"/><line x1="40" y1="120" x2="200" y2="120" stroke="#F7F3EC" stroke-width="3"/><line x1="93.3" y1="120" x2="120" y2="200" stroke="#F7F3EC" stroke-width="2.5"/><line x1="146.7" y1="120" x2="120" y2="200" stroke="#F7F3EC" stroke-width="2.5"/></svg></div>
+      <b>El rombo diaguita</b>El grupo: orden, identidad y pertenencia al territorio.
+      <svg class="greca" viewBox="0 0 120 12" aria-hidden="true"><polyline points="0,10 10,2 20,10 30,2 40,10 50,2 60,10 70,2 80,10 90,2 100,10 110,2 120,10" fill="none" stroke="#B0873C" stroke-width="2.5"/></svg>
+    </div>
+    <div class="simb">
+      <div class="ic"><svg width="150" viewBox="40 285 780 290" aria-hidden="true"><path d="M246,299 L268,303 L281,311 L385,435 L499,311 L512,303 L522,300 L534,299 L549,302 L562,309 L616,351 L800,403 L731,480 L720,491 L687,481 L669,492 L660,494 L641,493 L621,483 L537,418 L416,550 L403,558 L380,562 L366,559 L353,552 L262,445 L244,484 L238,492 L225,502 L211,507 L191,507 L179,503 L170,497 L61,478 L155,435 L204,325 L221,307 L234,301 L245,300 Z" fill="#159AAB"/><path d="M268,337 L308,377 L268,416 L229,377 L267,338 Z" fill="#0F4C5C"/><path d="M511,337 L551,377 L511,416 L472,377 L510,338 Z" fill="#0F4C5C"/><path d="M683,386 L694,387 L702,394 L704,398 L704,409 L702,413 L696,419 L690,421 L680,420 L672,413 L670,409 L670,398 L672,394 L678,388 L682,387 Z" fill="#F7F3EC"/><path d="M383,445 L422,485 L383,524 L344,485 L382,446 Z" fill="#0F4C5C"/></svg></div>
+      <b>El agua que fluye</b>AMARU: la serpiente sagrada del agua, que sigue el hilo de cada servicio de principio a fin.
+      <svg class="greca" viewBox="0 0 120 12" aria-hidden="true"><polyline points="0,10 10,2 20,10 30,2 40,10 50,2 60,10 70,2 80,10 90,2 100,10 110,2 120,10" fill="none" stroke="#159AAB" stroke-width="2.5"/></svg>
+    </div>
+    <div class="simb">
+      <div class="ic"><svg width="86" viewBox="0 0 240 240" aria-hidden="true"><ellipse cx="120" cy="124" rx="44" ry="80" fill="#B9572A"/><ellipse cx="120" cy="124" rx="36" ry="72" fill="none" stroke="#F7F3EC" stroke-width="2.5" stroke-dasharray="2 5" stroke-linecap="round"/><line x1="120" y1="74" x2="94" y2="134" stroke="#F7F3EC" stroke-width="9" stroke-linecap="round"/><line x1="120" y1="74" x2="146" y2="134" stroke="#F7F3EC" stroke-width="9" stroke-linecap="round"/><line x1="96" y1="134" x2="144" y2="134" stroke="#F7F3EC" stroke-width="9" stroke-linecap="round"/><polygon points="120,62 131,74 120,86 109,74" fill="#F7F3EC"/><polygon points="120,122 131,134 120,146 109,134" fill="#B9572A"/></svg></div>
+      <b>El cuero del oficio</b>TAMANGO: el material noble que abastece el trabajo diario.
+      <svg class="greca" viewBox="0 0 120 12" aria-hidden="true"><polyline points="0,10 10,2 20,10 30,2 40,10 50,2 60,10 70,2 80,10 90,2 100,10 110,2 120,10" fill="none" stroke="#B9572A" stroke-width="2.5"/></svg>
+    </div>
+    <div class="simb">
+      <div class="ic"><svg width="78" viewBox="60 10 120 210" aria-hidden="true"><path d="M108,42 C102,34 114,30 108,22" fill="none" stroke="#95A0AA" stroke-width="4" stroke-linecap="round"/><path d="M120,40 C114,32 126,28 120,20" fill="none" stroke="#95A0AA" stroke-width="4" stroke-linecap="round"/><path d="M132,42 C138,34 126,30 132,22" fill="none" stroke="#95A0AA" stroke-width="4" stroke-linecap="round"/><polygon points="72,52 168,52 160,68 80,68" fill="#95A0AA"/><polygon points="80,68 160,68 150,198 90,198" fill="#95A0AA"/><polygon points="80,68 120,68 120,198 90,198" fill="#A7B1B9"/><polygon points="86,198 154,198 162,214 78,214" fill="#95A0AA"/><polygon points="90,84 106,84 98,100" fill="#F7F3EC"/><polygon points="106,84 122,84 114,100" fill="#F7F3EC"/><polygon points="122,84 138,84 130,100" fill="#F7F3EC"/><polygon points="138,84 154,84 146,100" fill="#F7F3EC"/><polyline points="88,176 99,166 110,176 121,166 132,176 143,166 152,174" fill="none" stroke="#F7F3EC" stroke-width="3.5"/><polygon points="120,112 140,134 120,156 100,134" fill="#0F4C5C"/><polygon points="120,120 130,134 120,148 110,134" fill="#159AAB"/></svg></div>
+      <b>El kero que reúne</b>COLQUE: el vaso ceremonial — la mesa y el café que juntan a la gente.
+      <svg class="greca" viewBox="0 0 120 12" aria-hidden="true"><polyline points="0,10 10,2 20,10 30,2 40,10 50,2 60,10 70,2 80,10 90,2 100,10 110,2 120,10" fill="none" stroke="#95A0AA" stroke-width="2.5"/></svg>
+    </div>
   </div>
 </div></section>
 
